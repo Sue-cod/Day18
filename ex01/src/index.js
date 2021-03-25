@@ -3,8 +3,8 @@ let myArr = [];
 function* multiplication(x) {
 
 for (i = x+1; i >= 0; i--) {
-    yield x *= 2;
     myArr.push(x);
+    yield x *= 2;
 }
 return x;
 }
