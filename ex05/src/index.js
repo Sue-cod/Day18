@@ -14,8 +14,7 @@ for (let product of shoppingList.entries()) {
     arrValue.push(`amount: ${product[1]}`);
 }
 
-console.log(arrKey);
-console.log(arrValue);
+
 
 for (let i of shoppingList) {
     console.log(i);
